@@ -4,6 +4,7 @@ import Login from './components/Login';//grab code from signup and login
 import CreateProject from './components/CreateProject';
 import ProjectList from './components/ProjectList';
 import ProjectMembers from './components/ProjectMembers';
+import ProjectBacklog from "./components/ProjectBacklog.jsx";
 
 
 function App(){
@@ -25,6 +26,8 @@ function App(){
           <ProjectList refreshKey={refreshKey}/>
           <br/>
           <ProjectMembers refreshKey={refreshKey}/>
+          <br/>
+          <ProjectBacklog refreshKey={refreshKey}/>
       </div>
   );
 }
